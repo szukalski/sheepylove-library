@@ -1,0 +1,165 @@
+(footprint "SOD-123F_L2.7-W1.6-LS3.8-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOD-123F_L2.7-W1.6-LS3.8-RD footprint")
+	(tags "SOD-123F_L2.7-W1.6-LS3.8-RD footprint C81598")
+	(property "Reference" "REF**"
+		(at 0 -2.926137 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f8b0c63-9e7d-4260-912b-f989bb04e161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SOD-123F_L2.7-W1.6-LS3.8-RD"
+		(at 0 2.92634 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e566f4b-f901-402c-9cb8-b7df0cd871d3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa5d60cf-1b8a-4cd9-86ca-8233dde39e82")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a201a29-4c18-4cca-b414-d505235dd2ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7efe285-a77d-484f-add7-1c66926cf34c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.376175 -0.926137)
+		(end 1.376276 -0.926137)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05740ff7-aa3e-407d-886f-adf2bfbd3ab2")
+	)
+	(fp_line
+		(start -1.376175 0.92634)
+		(end 1.376276 0.92634)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ee7af2f-e302-431a-97b8-03ba862dde81")
+	)
+	(fp_line
+		(start -0.916739 -0.876124)
+		(end -0.916739 0.876327)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4329f6a6-7a20-49bb-8f18-09b65cdacffa")
+	)
+	(fp_line
+		(start 1.376276 -0.926137)
+		(end 1.376276 -0.733096)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a1aac42-5beb-4eb4-bc2d-d70a25978c8b")
+	)
+	(fp_line
+		(start 1.376276 0.92634)
+		(end 1.376276 0.733299)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85387ed4-762c-45b8-b17f-330af23f6939")
+	)
+	(fp_circle
+		(center -1.900051 0.800102)
+		(end -1.870079 0.800102)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e0085ff4-bb60-4034-a01d-2ee97830b63b")
+	)
+	(fp_text user "REF**"
+		(at 0 4.92634 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0917728-bee5-47a4-9119-592d61889ad7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.73495 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4ea1b206-73e4-4141-ae23-34d648156d0e")
+	)
+	(pad "2" smd rect
+		(at 1.73495 0)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "278796c7-02d4-4571-9404-edeb5fd16fbe")
+	)
+	(model "/Users/davjrob/git/szukalski/sheepylove-pedals/KiCad/Libraries/JLCPCB/x_JLC_Diodes.pretty/packages3d/SOD-123F_L2.7-W1.6-LS3.8-RD.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

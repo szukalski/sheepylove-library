@@ -1,0 +1,143 @@
+(footprint "LL-34_L3.5-W1.5-R-RD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LL-34_L3.5-W1.5-R-RD footprint")
+	(tags "LL-34_L3.5-W1.5-R-RD footprint C2891753")
+	(property "Reference" "REF**"
+		(at 0 -2.801194 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "15556eb7-0070-402d-9cda-16dcfa22d78e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LL-34_L3.5-W1.5-R-RD"
+		(at 0 2.801194 0)
+		(layer "F.Fab")
+		(uuid "cb048bea-9882-4f33-9888-32d4c4332b82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d75db69-454d-47c3-a68e-15db3d57ae4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c5239d4-c065-4a6b-b141-f91d71f36665")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c38ac9c8-fcb1-4f3c-8793-aa89867cfeea")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.0968 -0.801194)
+		(end -1.0968 0.801194)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9136184-c908-436f-b84b-c3a0a808704c")
+	)
+	(fp_line
+		(start -1.0968 -0.801194)
+		(end 1.0968 -0.801194)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "71414249-9f2c-441a-9658-1c73bdbd341e")
+	)
+	(fp_line
+		(start -1.0968 0.801194)
+		(end 1.0968 0.801194)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a51373b-93bd-4bec-a58e-8ffab7a6e850")
+	)
+	(fp_circle
+		(center -1.749987 0.724994)
+		(end -1.720015 0.724994)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f3c43cdd-0088-4fdb-85ac-ca88c181158b")
+	)
+	(fp_text user "REF**"
+		(at 0 4.801194 0)
+		(layer "F.Fab")
+		(uuid "86d03853-4a56-4b50-9e91-0e3fda61fc78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.892558 0)
+		(size 1.185014 1.566015)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42be519b-29d5-4c5a-a498-b2480ffbbe5f")
+	)
+	(pad "2" smd rect
+		(at -1.892558 0)
+		(size 1.185014 1.566015)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46bfee58-b8af-4bfc-9f95-f3964ee9d3ee")
+	)
+	(model "/Users/davjrob/git/szukalski/sheepylove-pedals/KiCad/Libraries/JLCPCB/x_JLC_Diodes.pretty/packages3d/LL-34_L3.5-W1.5-R-RD.step"
+		(offset
+			(xyz -0.07619999886 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
