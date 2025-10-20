@@ -1,0 +1,219 @@
+(footprint "C0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C0805 footprint")
+	(tags "C0805 footprint C15850")
+	(property "Reference" "REF**"
+		(at 0 -2.903607 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2e9fd21c-481e-459c-8e23-5d32af433fc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0805"
+		(at 0 2.903607 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "064be5b5-5db2-4e09-9d80-4a43cd10a8b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c46c5c2-3a2e-4c3f-b678-460013e736cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c04ebf42-b47d-4d78-812e-a6e8edca11c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2401a6c4-e595-4c94-bab8-5a57feb55849")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.963602 0.751207)
+		(end -1.963602 -0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e798569f-1645-4882-b03e-77a19393ec2e")
+	)
+	(fp_line
+		(start -1.811201 -0.903607)
+		(end -0.401194 -0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0dab5615-c020-47ed-a84b-52a9fe7b7f3c")
+	)
+	(fp_line
+		(start -0.401194 0.903607)
+		(end -1.811201 0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ab78ec0-2d98-4f51-a877-625a3c6998ef")
+	)
+	(fp_line
+		(start 0.401194 0.903607)
+		(end 1.811201 0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "258b23c3-5c98-4955-8cfe-0327dd8a8fd9")
+	)
+	(fp_line
+		(start 1.811201 -0.903607)
+		(end 0.401194 -0.903607)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5fa3254-cab3-4fda-bda1-e4ad52e3b4a0")
+	)
+	(fp_line
+		(start 1.963602 0.751207)
+		(end 1.963602 -0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03e88a9d-e5d5-4aae-9a82-2565fd391a29")
+	)
+	(fp_arc
+		(start -1.963602 -0.751207)
+		(mid -1.918965 -0.858971)
+		(end -1.811201 -0.903608)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2bf9f705-a8c3-4783-8aed-a5cbc6ee2fc2")
+	)
+	(fp_arc
+		(start -1.811201 0.903607)
+		(mid -1.918964 0.85897)
+		(end -1.963601 0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "215b6894-ec06-4d2c-873e-61c80a6e2708")
+	)
+	(fp_arc
+		(start 1.811201 -0.903607)
+		(mid 1.918964 -0.85897)
+		(end 1.963601 -0.751207)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be8e45a9-ad3a-49d4-96d5-2b94e6d3d7c2")
+	)
+	(fp_arc
+		(start 1.963602 0.751207)
+		(mid 1.918965 0.858971)
+		(end 1.811201 0.903608)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e675266d-92e9-4a1f-9385-a3e5b8243c4a")
+	)
+	(fp_circle
+		(center -1 0.625095)
+		(end -0.970028 0.625095)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e34695d5-4e40-436c-9d0d-1c06ed4dacb1")
+	)
+	(fp_text user "REF**"
+		(at 0 4.903607 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5d30f2a-e479-436e-8cdc-acdf1d804b49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1.410008 1.350013)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cb54378c-a845-4211-9232-a15b54fb3e8d")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1.410008 1.350013)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3d6f13d7-0288-415c-b0e4-035a79ea053e")
+	)
+	(model "/Users/davjrob/git/szukalski/sheepylove-pedals/KiCad/Libraries/JLCPCB/x_JLC_Capacitors.pretty/packages3d/C0805.step"
+		(offset
+			(xyz -1.413001979 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

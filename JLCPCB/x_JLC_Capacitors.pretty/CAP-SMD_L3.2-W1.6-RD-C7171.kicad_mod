@@ -1,0 +1,143 @@
+(footprint "CAP-SMD_L3.2-W1.6-RD-C7171"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAP-SMD_L3.2-W1.6-RD-C7171 footprint")
+	(tags "CAP-SMD_L3.2-W1.6-RD-C7171 footprint C7171")
+	(property "Reference" "REF**"
+		(at 0 -2.876226 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c2f6b80-bad4-4f3f-9f4d-8b7b78228cb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-SMD_L3.2-W1.6-RD-C7171"
+		(at 0 2.876226 0)
+		(layer "F.Fab")
+		(uuid "bab155de-afe0-40af-9086-d2bd2c600472")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "82551dbc-cb8c-4adc-8992-5895399ee816")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7818367f-6d06-4ff9-a9e5-441a82765a7a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2090fe5-0716-48bf-8c2f-5b4a73e68855")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.604318 0.876226)
+		(end -0.604318 -0.876226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c04b0ff8-0b96-4f4f-87ba-3d2daf93d76e")
+	)
+	(fp_line
+		(start 1.676175 -0.876226)
+		(end -1.676175 -0.876226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a14f527c-d901-4f3d-ac87-e26efc896b35")
+	)
+	(fp_line
+		(start 1.676175 0.876226)
+		(end -1.676175 0.876226)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "152b3e69-4f28-46d0-b497-e6928ae132c7")
+	)
+	(fp_circle
+		(center -1.778004 -0.889002)
+		(end -1.748031 -0.889002)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "17b74290-814b-4b39-8fb0-86eb97a6fea6")
+	)
+	(fp_text user "REF**"
+		(at 0 4.876226 0)
+		(layer "F.Fab")
+		(uuid "3fbc364e-bc1c-4eb7-896c-6fef91d4b4fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.686309 0 180)
+		(size 1.757506 1.296012)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "67b4cf1a-eab7-4e84-9026-b16c5e7dc136")
+	)
+	(pad "2" smd rect
+		(at 1.686309 0 180)
+		(size 1.757506 1.296012)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "daced950-ccdb-4841-85ee-9e80aaf6cea5")
+	)
+	(model "/Users/davjrob/git/szukalski/sheepylove-pedals/KiCad/Libraries/JLCPCB/x_JLC_Capacitors.pretty/packages3d/CAP-SMD_L3.2-W1.6-RD-C7171.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

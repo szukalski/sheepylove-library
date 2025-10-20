@@ -1,0 +1,219 @@
+(footprint "C1206"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "C1206 footprint")
+	(tags "C1206 footprint C96123")
+	(property "Reference" "REF**"
+		(at 0 -3.092609 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "89cd4d37-d3cf-4817-bc12-50692c22f9d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C1206"
+		(at 0 3.092609 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ff182a1-c637-4e02-bb2e-75a0bc22d1a3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ca6a5bf-cc33-45eb-9a0a-5f814979438c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a17146d-1373-461b-9fa8-5cdd7230db8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8504200d-24d1-4c1e-823e-c283ec819ce4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.563602 0.940208)
+		(end -2.563602 -0.940208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed42a8e9-418b-47bc-aab9-c69001d97393")
+	)
+	(fp_line
+		(start -2.411201 -1.092609)
+		(end -0.926213 -1.092609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e682f6e-daa3-4d25-88c3-0af3c663767e")
+	)
+	(fp_line
+		(start -0.926213 1.092609)
+		(end -2.411201 1.092609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c043b72a-41f3-4037-8414-ae6574f2b7cb")
+	)
+	(fp_line
+		(start 0.926213 1.092609)
+		(end 2.411201 1.092609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64038a07-60cf-4b3f-b123-d3381784dfb1")
+	)
+	(fp_line
+		(start 2.411201 -1.092609)
+		(end 0.926213 -1.092609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "542c1aaa-2692-419e-b38b-9382b9f6c4e1")
+	)
+	(fp_line
+		(start 2.563602 0.940208)
+		(end 2.563602 -0.940208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7791578-74d9-407b-af2d-2e6e524b894f")
+	)
+	(fp_arc
+		(start -2.563602 -0.940208)
+		(mid -2.518965 -1.047972)
+		(end -2.411201 -1.092609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c281ab2-7d17-4b4c-9d5b-c0d4928b6537")
+	)
+	(fp_arc
+		(start -2.411201 1.092609)
+		(mid -2.518965 1.047972)
+		(end -2.563602 0.940208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f53d3fa4-88de-4363-9752-c68a27e79e32")
+	)
+	(fp_arc
+		(start 2.411201 -1.092609)
+		(mid 2.518965 -1.047972)
+		(end 2.563602 -0.940208)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8438e7f3-8f37-4585-adc4-2fe6a3b6e20c")
+	)
+	(fp_arc
+		(start 2.563602 0.940208)
+		(mid 2.518965 1.047972)
+		(end 2.411201 1.092609)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6e381d6-ab2e-4359-a9b9-9e53d08d52c1")
+	)
+	(fp_circle
+		(center -1.599949 0.800102)
+		(end -1.569977 0.800102)
+		(stroke
+			(width 0.059995)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "641ed08b-e5f0-4901-9e8d-14c7e31bd625")
+	)
+	(fp_text user "REF**"
+		(at 0 5.092609 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba1dd9f6-064f-4e43-b970-d076fe1ced00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.592583 0)
+		(size 1.485014 1.727991)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bd68017d-2a91-4f4b-8e4f-e2ec362f4e4c")
+	)
+	(pad "2" smd rect
+		(at 1.592583 0)
+		(size 1.485014 1.727991)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a6f7ace-8824-4abf-aae6-5283acf2a469")
+	)
+	(model "/Users/davjrob/git/szukalski/sheepylove-pedals/KiCad/Libraries/JLCPCB/x_JLC_Capacitors.pretty/packages3d/C1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
