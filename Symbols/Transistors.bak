@@ -852,7 +852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistors:TO-92_SOT23_CBE"
+		(property "Footprint" "Transistors:SMD_BJT_BEC"
 			(at 0 -12.7 0)
 			(effects
 				(font
@@ -880,7 +880,7 @@
 			)
 		)
 		(property "Notes" "BC549/550/849/850 are equivalent"
-			(at 0 0 0)
+			(at 1.016 -6.858 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +969,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -987,7 +987,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1005,7 +1005,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
