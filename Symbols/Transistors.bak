@@ -34,7 +34,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistors:TO-92_SOT23_EBC"
+		(property "Footprint" "Transistors:SMD_BJT_BEC"
 			(at 0 -13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1092,7 +1092,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "BC850C"
+	(symbol "BC860C"
 		(pin_names
 			(offset 0)
 			(hide yes)
@@ -1157,6 +1157,17 @@
 				)
 			)
 		)
+		(property "Notes" "BC560C/2N5087/MMBT5087 equivalent"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "ki_keywords" "transistor PNP"
 			(at 0 0 0)
 			(show_name no)
@@ -1168,7 +1179,7 @@
 				)
 			)
 		)
-		(symbol "BC850C_0_1"
+		(symbol "BC860C_0_1"
 			(polyline
 				(pts
 					(xy -1.905 1.905) (xy -1.905 -1.905) (xy -1.905 -1.905)
@@ -1229,11 +1240,11 @@
 				)
 			)
 		)
-		(symbol "BC850C_1_1"
-			(pin input line
-				(at -7.62 0 0)
-				(length 5.715)
-				(name "B"
+		(symbol "BC860C_1_1"
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "E"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1248,10 +1259,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
-				(name "E"
+			(pin input line
+				(at -7.62 0 0)
+				(length 5.715)
+				(name "B"
 					(effects
 						(font
 							(size 1.27 1.27)
