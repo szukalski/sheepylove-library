@@ -1,0 +1,283 @@
+(footprint "Valve_Glimm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Valve Glimm")
+	(tags "Valve Glimm")
+	(property "Reference" "REF**"
+		(at 2.52 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "e3b943b1-fc16-4727-924f-0898092e7c7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Valve_Glimm"
+		(at 2.52 3.5 0)
+		(layer "F.Fab")
+		(uuid "8e756d93-1fb3-4dc9-ba47-cca30b88bc35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b5c4e70-9670-4528-b3f0-906296090537")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f18313d9-0bb3-44bc-bb75-d216cb1463c6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.23 2)
+		(end 0.27 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9a2da22-e2fb-45a5-b4fd-fe0f07f1f072")
+	)
+	(fp_line
+		(start 0 -2.54)
+		(end 5.08 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "508ea625-9d6f-4a9b-b947-8eaed490392b")
+	)
+	(fp_line
+		(start 0 2.54)
+		(end 5.08 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9474485b-0c6b-40a0-a841-195d6ae7b905")
+	)
+	(fp_line
+		(start 0.02 1.5)
+		(end -0.23 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15d53327-01d9-4fe8-a4fd-229082834354")
+	)
+	(fp_line
+		(start 0.27 2)
+		(end 0.02 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb48adf2-73ec-4c83-aa6a-fa3f7057e057")
+	)
+	(fp_arc
+		(start 0 2.54)
+		(mid -2.54 0)
+		(end 0 -2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce9d3f77-aff1-416c-bb06-070548b3661a")
+	)
+	(fp_arc
+		(start 5.08 -2.54)
+		(mid 7.62 0)
+		(end 5.08 2.54)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4141504c-4e23-4373-9ecf-19b59d2b11ab")
+	)
+	(fp_line
+		(start 0.02 2.75)
+		(end 5.02 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f9185ef-ab4d-4748-a510-eaa7a3ea1a15")
+	)
+	(fp_line
+		(start 5.02 -2.75)
+		(end 0.02 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f366fe5-bc1c-43d9-b367-9e26a76794f3")
+	)
+	(fp_arc
+		(start 0.02 2.75)
+		(mid -2.73 0)
+		(end 0.02 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0256ce18-cf47-406c-b9c7-bcbb45a7171e")
+	)
+	(fp_arc
+		(start 5.02 -2.75)
+		(mid 7.77 0)
+		(end 5.02 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "79ac84b7-970b-4124-8866-f13f4efaa7d9")
+	)
+	(fp_line
+		(start -0.23 2)
+		(end 0.27 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83f62a66-d679-4900-80cc-e4ab0633adf3")
+	)
+	(fp_line
+		(start 0.02 1.5)
+		(end -0.23 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78f63d3e-351a-48bf-a7c3-dda5c5816e9b")
+	)
+	(fp_line
+		(start 0.02 2.5)
+		(end 5.02 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ca5e6cd-596a-4288-9937-a2ad52c75dd2")
+	)
+	(fp_line
+		(start 0.27 2)
+		(end 0.02 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8390e729-a462-4c55-91ea-3cfe2355e6f8")
+	)
+	(fp_line
+		(start 5.02 -2.5)
+		(end 0.02 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df43d8d6-1137-425e-af3c-3c74ed050743")
+	)
+	(fp_arc
+		(start 0.02 2.5)
+		(mid -2.48 0)
+		(end 0.02 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a3ee321e-30a3-4a2f-aaf1-629cf51ea9aa")
+	)
+	(fp_arc
+		(start 5.02 -2.5)
+		(mid 7.52 0)
+		(end 5.02 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "073022ae-d86f-4e82-aa54-65a8c7921aae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.52 0 0)
+		(layer "F.Fab")
+		(uuid "c6a235c5-0146-4301-ab36-d70dd982f3d5")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.78 1.78)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2f411b75-3842-4102-b4e1-d64cff7a630a")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.78 1.78)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3939bc2a-9533-4e9e-a776-541f22da39ed")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Valve.3dshapes/Valve_Glimm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

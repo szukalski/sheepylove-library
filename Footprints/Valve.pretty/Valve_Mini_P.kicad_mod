@@ -1,0 +1,170 @@
+(footprint "Valve_Mini_P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Valve mini P")
+	(tags "Valve mini P")
+	(property "Reference" "REF**"
+		(at -6.35 -2.54 0)
+		(layer "F.SilkS")
+		(uuid "6a9e5f30-1889-4ab6-b7a3-cda1df571e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Valve_Mini_P"
+		(at -6.35 7.46 0)
+		(layer "F.Fab")
+		(uuid "5c01bde4-aff8-41ce-b817-ea23aa0783dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a20f16a1-7636-4219-9bba-9af18f5ef14e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90b65745-1a96-40d2-a18b-6a9f20c7b7f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -6.35 -2.54)
+		(end 1.4 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1819afe7-b092-46c9-b326-a4ae8b1744d1")
+	)
+	(fp_circle
+		(center -6.35 -2.54)
+		(end -6.6 6.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "916a0688-e361-4550-8fcc-5ef16f560102")
+	)
+	(fp_circle
+		(center -6.35 -2.54)
+		(end -10.79 1.91)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3cb264f2-77e2-4156-baa9-7c553c47b262")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -6.35 -2.54 0)
+		(layer "F.Fab")
+		(uuid "e16be130-5fe4-434f-aaa5-bc412ccddaaf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "320531b5-612c-468e-bab0-e92e5e4f67b2")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.08)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "649f6dec-9ac8-471c-9257-aa06a25b7349")
+	)
+	(pad "3" thru_hole circle
+		(at -3.81 -8.89)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf47e35e-e3a1-470d-a394-fc1d827812a6")
+	)
+	(pad "4" thru_hole circle
+		(at -8.89 -8.89)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc2f283d-c637-4c8d-98ee-7a2142232449")
+	)
+	(pad "5" thru_hole circle
+		(at -12.7 -5.08)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d77e0509-b4df-4903-8933-7e2db59c9c67")
+	)
+	(pad "6" thru_hole circle
+		(at -12.7 0)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "270908fc-87d7-422d-9b07-800fa76a2907")
+	)
+	(pad "7" thru_hole circle
+		(at -8.89 3.81)
+		(size 2.54 2.54)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbbe3fd2-e778-4841-baa4-4678d7d8dedf")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Valve.3dshapes/Valve_Mini_P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
