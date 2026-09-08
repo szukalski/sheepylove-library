@@ -2030,7 +2030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Transistors:TO-92_SOT23_ECB"
+		(property "Footprint" "Transistors:SMD_BJT_BEC"
 			(at 0 -12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
